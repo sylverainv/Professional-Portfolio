@@ -1,0 +1,115 @@
+html {
+  background-color: #d421ae;
+ }
+ /* Style the navigation menu */
+#body {background-color: #da18ca;
+
+}
+.topnav {
+    overflow: hidden;
+    background-color: rgb(114, 10, 118);
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: inside;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: rgb(5, 4, 5);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the navigation */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: static;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: rgb(224, 18, 207);
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: gray;
+    color: white;
+  }
+
+
+.content-wrapper{
+    color: #0e0b0a;
+    font-family: 'lucida sans';
+    
+}
+.white-text-container{
+    color: purple;
+    font-family: 'Lucida Sans'
+   
+}
+
+
+.text-center{
+    text-align: center;
+    font-display: flex;
+    color: rgb(15, 13, 15);
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace
+    
+}
+.container {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  margin: 160px;
+  width: 700px;
+  height: 480px;
+  outline: solid 5px gray;
+  
+}
+
+.row {
+  /* Center horizontally*/
+  text-align: center;
+}
+
+.row{
+  text-align: center;
+  align-items: center;
+  font-display: flex;
+  color: rgb(15, 13, 15);
+  font-size: large;
+  font-family: 'Courier New', Courier, monospace
+}
+
+
+.flexbox{
+    width: 780px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 12px;
+  
+  }
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+
+
